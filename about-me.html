@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html  class="has-navbar-fixed-top>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-divider@0.2.0/dist/css/bulma-divider.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- <link rel="stylesheet" href="css/debug.css"> -->
+  </head>
+  <body>
+
+    <!-- Navbar Element Begin-->
+    <nav class="navbar is-fixed-top is-primary" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img src="images/logo.png" width="32" height="32">
+        </a>
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" id="navbar-burger">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-start">
+          <a href="about-me.html" class="navbar-item">
+            <strong>About Me</strong>
+          </a>
+
+          <a href="#" class="navbar-item">
+            <strong>Projects</strong>
+          </a>
+
+          <a href="#" class="navbar-item">
+            <strong>Contact Me</strong>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Element End-->
+
+    <!-- Block Begin -->
+    <div class="block">
+      <div style="height:6em;"></div>
+      <div class="columns">
+        <div class="column">
+          <section class="hero is-light">
+            <div class="hero-body center-column">
+              <div class="block" style="min-height: 3em;"></div>
+              <h1 class="title is-1">About Me</h1>
+              <br/>
+              <figure class="image is-hidden-mobile fade-in-1">
+                <img class="is-rounded" src="images/avatar-256by256.png">
+              </figure>
+              <figure class="image is-128x128 is-hidden-tablet fade-in-1">
+                <img class="is-rounded" src="images/avatar-256by256.png">
+              </figure>
+              <br/>
+              <h1 class="title is-3">John Apple Smith</h1>
+              <br/>
+              <h1 class="title is-5">"The best thing about a boolean is even if you are wrong, you are only off by a bit"</h1>
+            </div>
+          </section>
+          
+        </div>
+        <div class="is-divider-vertical"></div>
+        <div class="column">
+          Third Column
+        </div>
+      </div>
+    </div>
+    <!-- Block End -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
