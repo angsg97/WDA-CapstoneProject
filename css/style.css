@@ -159,5 +159,7 @@ h1.is-5 {
 }
 }
 
-
+.media-content {
+  overflow-x: visible;
+}
 /* * { border: 1px solid red; } */
