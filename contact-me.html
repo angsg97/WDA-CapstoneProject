@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio Web App</title>
+    <title>Contact Me</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-divider@0.2.0/dist/css/bulma-divider.min.css">
     <link href="css/style.css" rel="stylesheet" type="text/css" />
@@ -44,75 +44,118 @@
     </nav>
     <!-- Navbar Element End-->
 
-    <!-- Hero Block Begin -->
-    <section class="hero is-light is-fullheight-with-navbar">
-      <div class="hero-body center-column">
-        <div class="block" style="min-height: 3em;"></div>
-        <h1 class="title is-size-1 is-hidden-mobile  fade-in-2">
-          Hi There!
-        </h1>
-        <h1 class="title is-size-2 is-hidden-tablet  fade-in-2">
-          Hi There!
-        </h1>
-        <figure class="image is-hidden-mobile fade-in-1">
-          <img class="is-rounded" src="images/avatar-256by256.png">
-        </figure>
-        <figure class="image is-128x128 is-hidden-tablet fade-in-1">
-          <img class="is-rounded" src="images/avatar-256by256.png">
-        </figure>
-        <br/>
-        <h1 class="title is-3  fade-in-2 is-hidden-mobile">
-          I'm John Smith!
-        </h1>
-        <h1 class="title is-4  fade-in-2 is-hidden-tablet">
-          I'm John Smith!
-        </h1>
-        <h1 class="title is-5 is-hidden-mobile  fade-in-2">
-          <i class="fas fa-code"></i>
-          Fullstack Developer  |  
-          <i class="fas fa-hockey-puck"></i>
-          Hockey Lover  |   
-          <i class="fas fa-music"></i>
-          Music Enthusiast
-        </h1>
-        <h1 class="title is-5 is-hidden-tablet  fade-in-2">
-          <i class="fas fa-code"></i>
-          Fullstack Developer  |  
-          <i class="fas fa-hockey-puck"></i>
-          Hockey Lover
-        </h1>
-        <h1 class="title is-5 is-hidden-tablet  fade-in-2">
-          <i class="fas fa-music"></i>
-          Music Enthusiast
-        </h1>
-        <br/>
-        <div class="level is-mobile  fade-in-2">
-          <div class="level-item">
-            <a href="#" id="twitter-logo"><i class="fab fa-twitter"></i></a>
-          </div>
+    <div class="columns">
+      <div class="column"></div>
 
-          <div class="level-item">
-            <a href="#" id="facebook-logo"><i class="fab fa-facebook-f"></i></a>
-          </div>
+      <!-- Center Column Start -->
+      <div class="column is-four-fifths">
+        <section class="hero is-light is-fullheight-with-navbar">
+          <div class="block" style="height:3em;"></div>
+          <div class="hero-body center-column">
+            <h1 class="title is-2">
+              Contact Me
+            </h1>
 
-          <div class="level-item">
-            <a href="#" id="instagram-logo"><i class="fab fa-instagram"></i></a>
-          </div>
+            <br/>
+            <div class="level is-mobile level-bottom-border">
+              <div class="level-item">
+                <a href="#" id="twitter-logo"><i class="fab fa-twitter"></i></a>
+              </div>
 
-          <div class="level-item">
-            <a href="#" id="github-logo"><i class="fab fa-github"></i></a>
-          </div>
+              <div class="level-item">
+                <a href="#" id="facebook-logo"><i class="fab fa-facebook-f"></i></a>
+              </div>
 
-          <div class="level-item">
-            <a href="#" id="linkedin-logo"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-        </div>
+              <div class="level-item">
+                <a href="#" id="instagram-logo"><i class="fab fa-instagram"></i></a>
+              </div>
 
+              <div class="level-item">
+                <a href="#" id="github-logo"><i class="fab fa-github"></i></a>
+              </div>
+
+              <div class="level-item">
+                <a href="#" id="linkedin-logo"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            
+            <h1 class="title is-5">Alternatively, send me an email</h1>
+
+            <!-- Start of Form -->
+            <form>
+              <div class="columns">
+                <!-- Column 1 Start -->
+                <div class="column">
+                  <!-- Name Label and TextInput -->
+                  <div class="field">
+                    <label class="label">Name</label>
+                    <div class="control has-icons-left">
+                      <input class="input is-info" type="text" placeholder="Enter Name Here">
+
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-user"></i>
+                      </span>
+                    </div>
+                  </div>
+
+                  <!-- Email Label and TextInput -->
+                  <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control has-icons-left">
+                      <input class="input is-info" type="email" placeholder="Enter Email Here">
+
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                      </span>
+                    </div>
+                  </div>
+
+                  <!-- Subject Label and TextInput -->
+                  <div class="field">
+                    <label class="label">Subject</label>
+                    <div class="control has-icons-left">
+                      <input class="input is-info" type="text" placeholder="Enter Subject Here">
+
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-comment"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <!-- Column 1 End -->
+
+                <!-- Column 2 Start -->
+                <div class="column">
+                  <div class="field">
+                    <label class="label">Message</label>
+
+                    <div class="control">
+                      <textarea class="textarea is-info" rows="8" placeholder="Enter your Message Here"></textarea>
+                    </div>
+                  </div>
+
+                  <div class="field  is-grouped is-grouped-right">
+                    <div class="control">
+                      <button class="button is-link">Submit</button>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- Column 2 End -->
+
+              </div>
+              <!-- Columns End -->
+
+            </form>
+            <!-- End of Form -->
+
+          </div>
+        </section>
       </div>
+      <!-- Center Column End -->
 
-      
-    </section>
-    <!-- Hero Block End -->
+      <div class="column"></div>
+    </div>
 
     <script src="js/script.js"></script>
   </body>

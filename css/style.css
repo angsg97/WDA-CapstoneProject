@@ -135,6 +135,11 @@ h1.is-5 {
   min-height: 2em;
 }
 
+.level-bottom-border {
+  border-bottom: 2px solid #bbb;
+  padding-bottom: 3em;
+}
+
 @media (max-width: 768px) {
   div.level-item {
   font-size: 1.5em;
