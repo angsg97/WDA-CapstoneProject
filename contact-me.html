@@ -14,7 +14,7 @@
   <body>
 
     <!-- Navbar Element Begin-->
-    <nav class="navbar is-fixed-top is-primary" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top has-shadow is-primary" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="index.html">
           <img src="images/logo.png" width="32" height="32">
@@ -44,20 +44,15 @@
     </nav>
     <!-- Navbar Element End-->
 
-    <div class="columns">
-      <div class="column"></div>
-
-      <!-- Center Column Start -->
-      <div class="column is-four-fifths">
         <section class="hero is-light is-fullheight-with-navbar">
           <div class="block" style="height:3em;"></div>
           <div class="hero-body center-column">
-            <h1 class="title is-2">
+            <h1 class="title is-2 fade-in-1">
               Contact Me
             </h1>
 
             <br/>
-            <div class="level is-mobile level-bottom-border">
+            <div class="level is-mobile level-bottom-border fade-in-1">
               <div class="level-item">
                 <a href="#" id="twitter-logo"><i class="fab fa-twitter"></i></a>
               </div>
@@ -79,83 +74,80 @@
               </div>
             </div>
             
-            <h1 class="title is-5">Alternatively, send me an email</h1>
+            <span class="fade-in-2">
+              <h1 class="title is-5">Alternatively, send me an email</h1>
 
-            <!-- Start of Form -->
-            <form>
-              <div class="columns">
-                <!-- Column 1 Start -->
-                <div class="column">
-                  <!-- Name Label and TextInput -->
-                  <div class="field">
-                    <label class="label">Name</label>
-                    <div class="control has-icons-left">
-                      <input class="input is-info" type="text" placeholder="Enter Name Here">
+              <!-- Start of Form -->
+              <form>
+                <div class="columns">
+                  <!-- Column 1 Start -->
+                  <div class="column">
+                    <!-- Name Label and TextInput -->
+                    <div class="field">
+                      <label class="label">Name</label>
+                      <div class="control has-icons-left">
+                        <input class="input is-info" type="text" placeholder="Enter Name Here">
 
-                      <span class="icon is-small is-left">
-                        <i class="fas fa-user"></i>
-                      </span>
+                        <span class="icon is-small is-left">
+                          <i class="fas fa-user"></i>
+                        </span>
+                      </div>
+                    </div>
+
+                    <!-- Email Label and TextInput -->
+                    <div class="field">
+                      <label class="label">Email</label>
+                      <div class="control has-icons-left">
+                        <input class="input is-info" type="email" placeholder="Enter Email Here">
+
+                        <span class="icon is-small is-left">
+                          <i class="fas fa-envelope"></i>
+                        </span>
+                      </div>
+                    </div>
+
+                    <!-- Subject Label and TextInput -->
+                    <div class="field">
+                      <label class="label">Subject</label>
+                      <div class="control has-icons-left">
+                        <input class="input is-info" type="text" placeholder="Enter Subject Here">
+
+                        <span class="icon is-small is-left">
+                          <i class="fas fa-comment"></i>
+                        </span>
+                      </div>
                     </div>
                   </div>
+                  <!-- Column 1 End -->
 
-                  <!-- Email Label and TextInput -->
-                  <div class="field">
-                    <label class="label">Email</label>
-                    <div class="control has-icons-left">
-                      <input class="input is-info" type="email" placeholder="Enter Email Here">
+                  <!-- Column 2 Start -->
+                  <div class="column">
+                    <div class="field">
+                      <label class="label">Message</label>
 
-                      <span class="icon is-small is-left">
-                        <i class="fas fa-envelope"></i>
-                      </span>
+                      <div class="control">
+                        <textarea class="textarea is-info" rows="8" placeholder="Enter your Message Here"></textarea>
+                      </div>
                     </div>
-                  </div>
 
-                  <!-- Subject Label and TextInput -->
-                  <div class="field">
-                    <label class="label">Subject</label>
-                    <div class="control has-icons-left">
-                      <input class="input is-info" type="text" placeholder="Enter Subject Here">
-
-                      <span class="icon is-small is-left">
-                        <i class="fas fa-comment"></i>
-                      </span>
+                    <div class="field  is-grouped is-grouped-right">
+                      <div class="control">
+                        <button class="button is-link">Submit</button>
+                      </div>
                     </div>
+
                   </div>
+                  <!-- Column 2 End -->
+
                 </div>
-                <!-- Column 1 End -->
+                <!-- Columns End -->
 
-                <!-- Column 2 Start -->
-                <div class="column">
-                  <div class="field">
-                    <label class="label">Message</label>
-
-                    <div class="control">
-                      <textarea class="textarea is-info" rows="8" placeholder="Enter your Message Here"></textarea>
-                    </div>
-                  </div>
-
-                  <div class="field  is-grouped is-grouped-right">
-                    <div class="control">
-                      <button class="button is-link">Submit</button>
-                    </div>
-                  </div>
-
-                </div>
-                <!-- Column 2 End -->
-
-              </div>
-              <!-- Columns End -->
-
-            </form>
-            <!-- End of Form -->
+              </form>
+              <!-- End of Form -->
+            </span>
 
           </div>
         </section>
-      </div>
-      <!-- Center Column End -->
-
-      <div class="column"></div>
-    </div>
 
     <script src="js/script.js"></script>
   </body>

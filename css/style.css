@@ -28,6 +28,10 @@
   height: 100%;
 }
 
+.navbar.has-shadow {
+  box-shadow: 0 2px 2px 2px rgba(117, 117, 117, 0.548);
+}
+
 div.level-item {
   font-size: 2em;
   padding: 0 0.25em 0 0.25em;
@@ -80,7 +84,7 @@ html {
 }
 
 @keyframes fadeInOpacity-1 {
-	0% {
+	0%, 40%{
 		opacity: 0;
 	}
 	100% {
