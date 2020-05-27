@@ -13,6 +13,7 @@ html {
   height: 24px;
   border-left: 1px solid black;
   border-bottom: 1px solid black;
+  -webkit-transform: rotate(-45deg) translateY(-40px) translateX(40px);
   transform: rotate(-45deg) translateY(-40px) translateX(40px);
   animation: sdb05 2s infinite ease-in-out;
 }
@@ -20,6 +21,7 @@ html {
 
 @keyframes sdb05 {
   0% {
+    -webkit-transform: rotate(-45deg) translateY(-30px) translateX(30px);
     transform: rotate(-45deg) translateY(-30px) translateX(30px);
     opacity: 0;
   }
@@ -27,6 +29,7 @@ html {
     opacity: 1;
   }
   75%, 100% {
+    -webkit-transform: rotate(-45deg)  translateY(-10px) translateX(10px);
     transform: rotate(-45deg)  translateY(-10px) translateX(10px);
     opacity: 0;
   }
