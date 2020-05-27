@@ -1,0 +1,33 @@
+html {
+  scroll-behavior:smooth;
+}
+
+.arrow {
+  /* border: solid black;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 8px; */
+
+  top: 0;
+  width: 24px;
+  height: 24px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  transform: rotate(-45deg) translateY(-40px) translateX(40px);
+  animation: sdb05 2s infinite ease-in-out;
+}
+
+
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translateY(-30px) translateX(30px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75%, 100% {
+    transform: rotate(-45deg)  translateY(-10px) translateX(10px);
+    opacity: 0;
+  }
+}
