@@ -3,13 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A Portfolio Web App created using the Bulma Framework for CSS">
+    <meta name="theme-color" content="#00d1b2" />
+
     <title>Portfolio Web App</title>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-divider@0.2.0/dist/css/bulma-divider.min.css">
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="manifest" href="public/manifest.json">
+    <!-- <link rel="stylesheet" href="css/debug.css"> -->
+
+    <!-- iOS meta tags and icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="green">
+    <meta name="apple-mobile-web-app-title" content="Portfolio Web App">
+    <link rel="apple-touch-icon" href="/images/icons/icon-152px.png">
+
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 
-    <!-- <link rel="stylesheet" href="css/debug.css"> -->
   </head>
   <body>
 
@@ -17,7 +29,7 @@
     <nav class="navbar is-fixed-top has-shadow is-primary" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="index.html">
-          <img src="images/man-logo.svg" width="36" height="36" alt="Logo">
+          <img src="images/icons/icon-128px.png" width="32" height="36" alt="Logo">
         </a>
         <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" id="navbar-burger">
           <span aria-hidden="true"></span>
@@ -47,7 +59,16 @@
     <!-- Hero Block Begin -->
     <section class="hero is-light is-fullheight-with-navbar">
       <div class="hero-body center-column">
-        <div class="block" style="min-height: 3em;"></div>
+
+        <div class="block" style="min-height: 3em;">
+          <!-- Empty Block to add space -->
+        </div>
+
+        <!-- Update Notification if new ServiceWorker Version -->
+        <div class="notification is-link" id="notification">
+          A new version of this app is available. Click <a id="reload">here</a> to update.
+        </div>
+
         <h1 class="title is-size-1 is-hidden-mobile fade-in-2">
           Hi There!
         </h1>
@@ -138,5 +159,6 @@
     <!-- Hero Block End -->
 
     <script src="js/script.js"></script>
+    <script src="registerServiceWorker.js"></script>
   </body>
 </html>

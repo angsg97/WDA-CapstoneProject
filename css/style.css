@@ -158,6 +158,14 @@ h1.is-5 {
   padding-bottom: 3em;
 }
 
+#notification {
+  display: none;
+}
+
+#notification.show {
+  display: block;
+}
+
 @media (max-width: 1200px) {
   .subtitle {
     font-size: 0.9em;
