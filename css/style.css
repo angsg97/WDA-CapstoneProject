@@ -66,6 +66,11 @@ html {
   margin-right:1em;
 }
 
+.hero-foot {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
 .column {
   padding-left: 2em;
   padding-right: 2em;
@@ -140,8 +145,12 @@ h1.is-5 {
     text-align: justify;
   }
 
+.subtitle:not(:last-child) {
+  margin-bottom: 3em;
+}
+
 .block-minheight {
-  min-height: 2em;
+  min-height: 3em;
 }
 
 .level-bottom-border {
@@ -149,9 +158,28 @@ h1.is-5 {
   padding-bottom: 3em;
 }
 
+@media (max-width: 1200px) {
+  .subtitle {
+    font-size: 0.9em;
+  }
+
+  .subtitle:not(:last-child) {
+  margin-bottom: 2em;
+  }
+
+  #about-me-text {
+    padding: 1em;
+    padding-top: 2em;
+  }
+}
+
 @media (max-width: 768px) {
   div.level-item {
   font-size: 1.5em;
+  }
+
+  .block-minheight {
+    min-height: 1em;
   }
 
   .columns {
@@ -182,6 +210,10 @@ h1.is-5 {
     padding-right: 0.5em;
   }
 
+}
+
+form {
+  margin-bottom: 1em;
 }
 
 #scroll-divider {
