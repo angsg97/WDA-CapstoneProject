@@ -106,12 +106,10 @@ html {
 }
 
 @keyframes fadeInOpacity-2 {
-	0% {
+	0%, 50% {
 		opacity: 0;
 	}
-  50% {
-		opacity: 0;
-	}
+	
 	100% {
 		opacity: 1;
 	}

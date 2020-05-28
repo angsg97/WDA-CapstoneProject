@@ -1,4 +1,4 @@
-let cacheName = '28/5/20_Cache1';
+let cacheName = '28/5/20_Cache2';
 
 let filesToCache = [
   '/',
@@ -49,25 +49,8 @@ self.addEventListener('install', function(e){
       }));
     })
   );
-  // self.skipWaiting();
 })
 
-// self.addEventListener('activate', (evt) => {
-//   console.log('[ServiceWorker] Activate');
-//   // CODELAB: Remove previous cached data from disk.
-//   evt.waitUntil(
-//     caches.keys().then((keyList) => {
-//       return Promise.all(keyList.map((key) => {
-//         if (key !== cacheName) {
-//           console.log('[ServiceWorker] Removing old cache', key);
-//           return caches.delete(key);
-//         }
-//       }));
-//     })
-//   );
-
-//   self.clients.claim();
-// });
 
 /*
 If offline or if the file exists in the cache, then it will fetch the files from cache

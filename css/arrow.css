@@ -15,7 +15,7 @@ html {
   border-bottom: 1px solid black;
   -webkit-transform: rotate(-45deg) translateY(-40px) translateX(40px);
   transform: rotate(-45deg) translateY(-40px) translateX(40px);
-  animation: sdb05 2s infinite ease-in-out;
+  animation: sdb05 1.5s infinite ease-in-out;
 }
 
 
