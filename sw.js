@@ -1,5 +1,5 @@
-let cacheName = '28/5/20_Cache8';
-// let caches;
+let cacheName = '28/5/20_Cache1';
+
 let filesToCache = [
   '/',
   'index.html',
