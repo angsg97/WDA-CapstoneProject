@@ -156,12 +156,17 @@ h1.is-5 {
   padding-bottom: 3em;
 }
 
-#notification {
+.notification {
   display: none;
+  margin-top: 0.75rem;
 }
 
-#notification.show {
-  display: block;
+.notification.show {
+  display: flex;
+}
+
+#installButton {
+  margin-top: 1em;;
 }
 
 @media (max-width: 1200px) {

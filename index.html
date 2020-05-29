@@ -61,9 +61,20 @@
       <div class="hero-body center-column">
 
         <!-- Update Notification if new ServiceWorker Version -->
-        <div class="notification is-link" id="notification">
+        <div class="notification is-link">
           A new version of this app is available. Click <a id="reload">here</a> to update.
         </div>
+
+        <!-- Add Button to notify User to install our Web App -->
+
+        <div class="notification is-info center-column" id="install_notification">
+          <button class="delete" id="deleteButton"></button>
+          Click the button below to install Web App!
+          <button class="button is-link" id="installButton">
+            Install Web App
+          </button>
+        </div>
+        
 
         <h1 class="title is-size-1 is-hidden-mobile fade-in-2">
           Hi There!
@@ -155,5 +166,6 @@
 
     <script src="js/script.js"></script>
     <script src="registerServiceWorker.js"></script>
+    <script src="js/install.js"></script>
   </body>
 </html>

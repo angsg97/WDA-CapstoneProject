@@ -1,4 +1,4 @@
-let cacheName = '28/5/20_Cache2';
+let cacheName = '29/5/20_Cache2';
 
 let filesToCache = [
   '/',
